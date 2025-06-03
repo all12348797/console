@@ -2,12 +2,12 @@ const express = require("express");
 const app = express();
 const { exec, execSync } = require('child_process');
 const port = process.env.SERVER_PORT || process.env.PORT || 3000;        
-const UUID = process.env.UUID || '62252678-bec9-4eee-9456-095aa59b2bd1'; //
+const UUID = process.env.UUID || '45895201-5938-4711-ab30-f9d8cc713dc9'; //
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';     
 const NEZHA_PORT = process.env.NEZHA_PORT || '';                     //
 const NEZHA_KEY = process.env.NEZHA_KEY || '';
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '';     //
-const ARGO_AUTH = process.env.ARGO_AUTH || '';
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'choreo.hggfcf.tk';     //
+const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiMTk2YmIxZGNiNmFlYzM3MmUyYWRmNDZjMDc2NzA1M2YiLCJ0IjoiZDk3OGU3NDEtMTRjMy00ZDRmLWI3ZjgtODNiODM5MjBmNGYyIiwicyI6Ik5UazBNalZqTURFdE16TXlOQzAwWVdNNUxXRTVOemN0TVdWbU5qSTRZMkkyWXpRMyJ9';
 const CFIP = process.env.CFIP || 'na.ma';
 const NAME = process.env.NAME || 'Choreo';
 
